@@ -1,3 +1,7 @@
+.viewerContainer {
+  background: url("https://static.brandfolder.com/assets/background-bf-transparent-square-5d7c8351c9bb953eb8d7b3f0e0040989ffd92ab94bdec7a203e8e197339e2277.png");
+}
+
 .textLayer {
   position: absolute;
   left: 0;

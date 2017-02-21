@@ -37,7 +37,7 @@
 .textLayer .highlight {
   margin: -1px;
   padding: 1px;
-  background-color: #F00;
+  background-color: #000000;
   border-radius: 4px;
 }
 
@@ -54,7 +54,7 @@
 }
 
 .textLayer .highlight.selected {
-  background-color: #F00;
+  background-color: #000000;
 }
 
 .pdfViewer .canvasWrapper {
@@ -70,7 +70,7 @@
   overflow: visible;
   border: 6px solid transparent;
   background-clip: content-box;
-  background-color: white;
+  background-color: black;
 }
 
 .pdfViewer .page canvas {
@@ -90,8 +90,8 @@
 
 .pdfViewer .page .annotLink > a:hover {
   opacity: 0.2;
-  background: #F00;
-  box-shadow: 0px 2px 10px #F00;
+  background: #000;
+  box-shadow: 0px 2px 10px #000;
 }
 
 :-webkit-full-screen .pdfViewer .page {
@@ -128,8 +128,8 @@
   z-index: 200;
   float: left;
   max-width: 20em;
-  background-color: #F00;
-  box-shadow: 0px 2px 5px #F00;
+  background-color: #000000;
+  box-shadow: 0px 2px 5px #000;
   border-radius: 2px;
   padding: 0.6em;
   cursor: pointer;
@@ -137,7 +137,7 @@
 
 .pdfViewer .page .annotTextContent > h1 {
   font-size: 1em;
-  border-bottom: 1px solid #F00;
+  border-bottom: 1px solid #000000;
   padding-bottom: 0.2em;
 }
 
@@ -172,7 +172,7 @@ html {
 
 body {
   height: 100%;
-  background-color: #F00;
+  background-color: #c6c7c7;
 }
 
 body,
@@ -201,7 +201,7 @@ input{
 .viewerContainer:-webkit-full-screen {
   top: 0px;
   border-top: 2px solid transparent;
-  background-color: black;
+  background-color: #000;
   width: 100%;
   height: 100%;
   overflow: hidden;
@@ -212,7 +212,7 @@ input{
 .viewerContainer:-moz-full-screen {
   top: 0px;
   border-top: 2px solid transparent;
-  background-color: black;
+  background-color: #000;
   width: 100%;
   height: 100%;
   overflow: hidden;
@@ -231,13 +231,13 @@ input{
 }
 
 .viewerContainer:-ms-fullscreen::-ms-backdrop {
-  background-color: black;
+  background-color: #000;
 }
 
 .viewerContainer:fullscreen {
   top: 0px;
   border-top: 2px solid transparent;
-  background-color: black;
+  background-color: #000;
   width: 100%;
   height: 100%;
   overflow: hidden;
@@ -380,7 +380,7 @@ html[dir='rtl'] .outerContainer.sidebarOpen > .mainContainer {
   -webkit-overflow-scrolling: touch;
   position: absolute;
   width: 143px;
-  background-color: #F00;
+  background-color: #000000;
 }
 
 html[dir='ltr'] .sidebarContent {
@@ -430,14 +430,14 @@ html[dir='rtl'] .viewerContainer {
 .toolbarContainer {
   width: 100%;
   vertical-align: middle;
-  background-color: #F00;
-  border-bottom: 1px solid #F00;
+  background-color: #edeff0;
+  border-bottom: 1px solid #aaa;
 }
 
 .toolbarSidebar {
   width: 200px;
   height: 32px;
-  background-color: #F00; /* fallback */
+  background-color: #000000; /* fallback */
   background-image: url(images/texture.png),
                     linear-gradient(hsla(0,0%,30%,.99), hsla(0,0%,25%,.95));
 }
@@ -457,7 +457,7 @@ html[dir='rtl'] #toolbarSidebar {
 .toolbarContainer, .secondaryToolbar {
   position: relative;
   height: 46px;
-  background-color: #F00; /* fallback */
+  background-color: #edeff0; /* fallback */
 }
 
 .findbar{
@@ -487,7 +487,7 @@ html[dir='rtl'] .toolbarContainer, .secondaryToolbar {
   position: relative;
   width: 100%;
   height: 4px;
-  background-color: #F00;
+  background-color: #edeff0;
   border-bottom: 1px solid hsla(0,2%,70%,.8);
 }
 
@@ -497,7 +497,7 @@ html[dir='rtl'] .toolbarContainer, .secondaryToolbar {
   left: 0;
   width: 0%;
   height: 100%;
-  background-color: #F00;
+  background-color: #000;
   overflow: hidden;
   -webkit-transition: width 200ms;
   transition: width 200ms;
@@ -516,7 +516,7 @@ html[dir='rtl'] .toolbarContainer, .secondaryToolbar {
 }
 
 .loadingBar .progress.indeterminate {
-  background-color: #F00;
+  background-color: #999;
   -webkit-transition: none;
   transition: none;
 }
@@ -528,7 +528,7 @@ html[dir='rtl'] .toolbarContainer, .secondaryToolbar {
   height: 100%;
   width: 50px;
 
-  background-image: linear-gradient(to right, #F00 0%, #F00 50%, #F00 100%);
+  background-image: linear-gradient(to right, #999 0%, #fff 50%, #999 100%);
   background-size: 100% 100%;
   background-repeat: no-repeat;
 
@@ -544,7 +544,7 @@ html[dir='rtl'] .toolbarContainer, .secondaryToolbar {
   min-width: 16px;
   padding: 0px 6px 0px 6px;
   margin: 6px 4px 0px 0px;
-  color: #F00;
+  color: #000000;
   font-size: 13px;
   line-height: 15px;
   text-align: left;
@@ -644,7 +644,7 @@ html[dir='ltr'] .doorHangerRight:before {
 
 .findMsg {
   font-style: italic;
-  color: #F00;
+  color: #A6B7D0;
 }
 
 .findInput.notFound {
@@ -838,7 +838,7 @@ html[dir='rtl'] .splitToolbarButtonSeparator {
   padding: 2px 6px 0;
   border: 1px solid transparent;
   border-radius: 4px;
-  color: #F00;
+  color: #000000;
   font-size: 13px;
   line-height: 14px;
   -webkit-user-select: none;
@@ -863,7 +863,7 @@ html[dir='rtl'] .splitToolbarButtonSeparator {
 }
 
 .overlayButton{
-  color: #F00;
+  color: #d9d9d9;
 }
 
 html[dir='ltr'] .toolbarButton,
@@ -1174,7 +1174,7 @@ html[dir='rtl'] .verticalToolbarSeparator {
   border-color: hsla(0,0%,0%,.32) hsla(0,0%,0%,.38) hsla(0,0%,0%,.42);
   box-shadow: 0 1px 0 hsla(0,0%,0%,.05) inset,
               0 1px 0 hsla(0,0%,100%,.05);
-  color: #F00;
+  color: #000000;
   font-size: 13px;
   line-height: 14px;
   outline-style: none;
@@ -1193,7 +1193,7 @@ html[dir='rtl'] .verticalToolbarSeparator {
   background-clip: padding-box;
 
   border-color: hsla(0,0%,0%,.32) hsla(0,0%,0%,.38) hsla(0,0%,0%,.42);
-  color: #F00;
+  color: #000000;
   font-size: 14px;
   font-weight: bolder;
   line-height: 14px;
@@ -1214,7 +1214,7 @@ html[dir='rtl'] .verticalToolbarSeparator {
   border-color: hsla(0,0%,0%,.32) hsla(0,0%,0%,.38) hsla(0,0%,0%,.42);
   box-shadow: 0 1px 0 hsla(0,0%,0%,.05) inset,
               0 1px 0 hsla(0,0%,100%,.05);
-  color: #F00;
+  color: #000000;
   font-size: 13px;
   line-height: 14px;
   outline-style: none;
@@ -1242,7 +1242,7 @@ html[dir='rtl'] .verticalToolbarSeparator {
   -webkit-appearance: textfield;
   min-width: 34px;
   text-align: center;
-  border: 1px solid #F00;
+  border: 1px solid #000000;
   margin-left: 7px;
 }
 
@@ -1275,7 +1275,7 @@ html[dir='rtl'] .verticalToolbarSeparator {
   border: 1px solid transparent;
   border-radius: 2px;
   /* color: hsl(0,0%,85%); */
-  color: #F00;
+  color: #000000;
   font-size: 13px;
   line-height: 14px;
   text-align: left;
@@ -1464,8 +1464,8 @@ html[dir='rtl'] .attachmentsItem > button {
 }
 
 .errorWrapper {
-  background: none repeat scroll 0 0 #F00;
-  color: white;
+  background: none repeat scroll 0 0 #000000;
+  color: black;
   left: 0;
   position: absolute;
   right: 0;
@@ -1486,7 +1486,7 @@ html[dir='rtl'] .attachmentsItem > button {
 }
 
 .errorMoreInfo {
-  background-color: #F00;
+  background-color: #000000;
   color: black;
   padding: 3px;
   margin: 3px;
@@ -1497,14 +1497,14 @@ html[dir='rtl'] .attachmentsItem > button {
   width: auto;
   margin: 3px 4px 2px 4px !important;
   padding: 3px 10px 5px 10px;
-  background: #f5f5f5;
-  border: 1px solid #ddd;
+  background: #000000;
+  border: 1px solid #000;
   border-radius: 5px;
-  color: #F00;
+  color: #000000;
 }
 
 .overlayButton:hover{
-  background: #F00;;
+  background: #000000;;
 }
 
 
@@ -1531,10 +1531,10 @@ html[dir='rtl'] .attachmentsItem > button {
   display: inline-block;
   padding: 20px;
   border-spacing: 4px;
-  color: #F00;
+  color: #000000;
   font-size: 12px;
   line-height: 20px;
-  background-color: #fff;
+  background-color: #000;
   box-shadow: inset 1px 0 0 hsla(0,0%,100%,.08),
               inset 0 1px 1px hsla(0,0%,0%,.15),
               inset 0 -1px 0 hsla(0,0%,100%,.05),
@@ -1606,7 +1606,7 @@ html[dir='rtl'] .attachmentsItem > button {
   margin: 16px 0 14px 0;
   height: 1px;
   width: 111%;
-  background-color: #F00;
+  background-color: #000000;
   box-shadow: 0 0 0 1px hsla(0,0%,100%,.08);
   margin-left: -20px;
 }
@@ -1711,7 +1711,7 @@ html[dir='rtl'] .documentPropertiesOverlay .row > * {
 }
 
 .fileInput {
-  background: white;
+  background: black;
   color: black;
   margin-top: 5px;
   visibility: hidden;
@@ -1721,8 +1721,8 @@ html[dir='rtl'] .documentPropertiesOverlay .row > * {
 }
 
 #PDFBug {
-  background: none repeat scroll 0 0 white;
-  border: 1px solid #F00;
+  background: none repeat scroll 0 0 black;
+  border: 1px solid #000000;
   position: fixed;
   top: 32px;
   right: 0;
@@ -1732,8 +1732,8 @@ html[dir='rtl'] .documentPropertiesOverlay .row > * {
   width: 300px;
 }
 #PDFBug .controls {
-    background:#F00;
-    border-bottom: 1px solid #F00;
+    background:#000000;
+    border-bottom: 1px solid #000000;
     padding: 3px;
 }
 #PDFBug .panels {
@@ -1769,7 +1769,7 @@ html[dir='rtl'] .documentPropertiesOverlay .row > * {
 
 .viewer.textLayer-visible .textLayer > div,
 .viewer.textLayer-hover .textLayer > div:hover {
-  background-color: white;
+  background-color: black;
   color: black;
 }
 
@@ -1981,7 +1981,7 @@ html[dir='rtl'] .documentPropertiesOverlay .row > * {
     border: none;
     box-shadow: none;
     background-clip: content-box;
-    background-color: white;
+    background-color: black;
   }
 
   .page[data-loaded] {
@@ -2158,35 +2158,34 @@ html[dir='rtl'] .documentPropertiesOverlay .row > * {
 
 .toolbarViewerCenter{
   position: absolute;
-  top: -5px;
-  left: 50%;
-  margin-left: -90px;
+  top: 8px;
+  left: 45%;
 }
 
 .toolbar_logo{
-  height: 60px;
-  width: 180px;
-  background: url(https://assets.filestackapi.com/api/e52cee0/preview/css/viewer_logo_30.png);
+  height: 30px;
+  width: 90px;
+  background: url(viewer_logo_30.png);
   background-size: 100%;
 }
 
 @media screen and (min-resolution: 2dppx){
   .toolbar_logo{
-    background: url(https://assets.filestackapi.com/api/e52cee0/preview/css/viewer_logo_60.png);
+    background: url(viewer_logo_60.png);
     background-size: 100%;
   }
 }
 
-@media screen and (max-width: 400px){
+@media all and (max-width: 400px){
   .toolbarViewerCenter{
     position: absolute;
-    top: 7px;
-    left: 76%;
+    top: 8px;
+    left: 54%;
   }
 
   .toolbar_logo{
-    width: 28px;
-	height: 30px;
+    width: 30px;
+    height: 30px;
     background: url(viewer_sygnet_30.png);
     background-size: 100%;
   }

@@ -13,6 +13,14 @@
   width: 100%;
 }
 
+#download {
+  display: none;
+}
+
+#print {
+  margin: 3px 5px 4px 5px;
+}
+
 .textLayer {
   position: absolute;
   left: 0;

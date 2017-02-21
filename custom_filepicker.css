@@ -2,6 +2,17 @@
   background: url("https://static.brandfolder.com/assets/background-bf-transparent-square-5d7c8351c9bb953eb8d7b3f0e0040989ffd92ab94bdec7a203e8e197339e2277.png");
 }
 
+#viewer {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
 .textLayer {
   position: absolute;
   left: 0;

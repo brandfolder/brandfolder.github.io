@@ -43,25 +43,6 @@
   transform-origin: 0% 0%;
 }
 
-.textLayer .highlight {
-  margin: -1px;
-  padding: 1px;
-  background-color: #000000;
-  border-radius: 4px;
-}
-
-.textLayer .highlight.begin {
-  border-radius: 4px 0px 0px 4px;
-}
-
-.textLayer .highlight.end {
-  border-radius: 0px 4px 4px 0px;
-}
-
-.textLayer .highlight.middle {
-  border-radius: 0px;
-}
-
 .textLayer .highlight.selected {
   background-color: #000000;
 }
@@ -77,7 +58,7 @@
   margin: 1px auto -8px auto;
   position: relative;
   overflow: visible;
-  border: 6px solid transparent;
+  border: none;
   background-clip: content-box;
   background-color: black;
 }
@@ -139,14 +120,13 @@
   max-width: 20em;
   background-color: #000000;
   box-shadow: 0px 2px 5px #000;
-  border-radius: 2px;
   padding: 0.6em;
   cursor: pointer;
 }
 
 .pdfViewer .page .annotTextContent > h1 {
   font-size: 1em;
-  border-bottom: 1px solid #000000;
+  border-bottom: none;
   padding-bottom: 0.2em;
 }
 
@@ -209,7 +189,7 @@ input{
 
 .viewerContainer:-webkit-full-screen {
   top: 0px;
-  border-top: 2px solid transparent;
+  border-top: none;
   background-color: #000;
   width: 100%;
   height: 100%;
@@ -220,7 +200,7 @@ input{
 
 .viewerContainer:-moz-full-screen {
   top: 0px;
-  border-top: 2px solid transparent;
+  border-top: none;
   background-color: #000;
   width: 100%;
   height: 100%;
@@ -231,7 +211,7 @@ input{
 
 .viewerContainer:-ms-fullscreen {
   top: 0px !important;
-  border-top: 2px solid transparent;
+  border-top: none;
   width: 100%;
   height: 100%;
   overflow: hidden !important;
@@ -245,7 +225,7 @@ input{
 
 .viewerContainer:fullscreen {
   top: 0px;
-  border-top: 2px solid transparent;
+  border-top: none;
   background-color: #000;
   width: 100%;
   height: 100%;
@@ -1314,20 +1294,19 @@ html[dir='rtl'] .verticalToolbarSeparator {
 }
 
 .thumbnail:not([data-loaded]) {
-  border: 1px dashed rgba(255, 255, 255, 0.5);
+  border: none;
   margin-bottom: 10px;
 }
 
 .thumbnailImage {
   transition-duration: 150ms;
-  border: 1px solid transparent;
+  border: none;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
   opacity: 0.8;
   z-index: 99;
 }
 
 .thumbnailSelectionRing {
-  border-radius: 3px;
   padding: 10px;
   transition-duration: 150ms;
 }
@@ -1550,7 +1529,7 @@ html[dir='rtl'] .attachmentsItem > button {
               0 1px 0 hsla(0,0%,0%,.15),
               0 1px 1px hsla(0,0%,0%,.1);
   border-radius: 5px;
-  border: 1px solid hsla(0,0%,0%,.4);
+  border: none;
 }
 
 .documentPropertiesTitle:before{
@@ -1731,7 +1710,7 @@ html[dir='rtl'] .documentPropertiesOverlay .row > * {
 
 #PDFBug {
   background: none repeat scroll 0 0 black;
-  border: 1px solid #000000;
+  border: none;
   position: fixed;
   top: 32px;
   right: 0;

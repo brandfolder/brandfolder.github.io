@@ -60,7 +60,7 @@
   overflow: visible;
   border: none;
   background-clip: content-box;
-  background-color: black;
+  background-color: transparent;
 }
 
 .pdfViewer .page canvas {

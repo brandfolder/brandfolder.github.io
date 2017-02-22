@@ -143,11 +143,6 @@
   height: 100%;
 }
 
-.pdfViewer .page .annotLink > a /* -ms-a */  {
-  background: url("data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAA\
-                   LAAAAAABAAEAAAIBRAA7") 0 0 repeat;
-}
-
 * {
   padding: 0;
   margin: 0;

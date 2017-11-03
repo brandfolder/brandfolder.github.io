@@ -1,4 +1,5 @@
 
 .toolbarViewerCenter {
   display: none !important;
+  margin-top: -100px;
 }
